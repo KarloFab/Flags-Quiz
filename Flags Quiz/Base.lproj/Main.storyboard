@@ -44,6 +44,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="rDO-EV-oDn"/>
+                    <connections>
+                        <outlet property="firstFlagButton" destination="EYL-oa-Luf" id="fSX-sb-KHF"/>
+                        <outlet property="secondFlagButtton" destination="iO4-bl-4j2" id="Qv5-cV-Uwo"/>
+                        <outlet property="thirdFlagButton" destination="8Le-Gs-OZo" id="evp-O9-PML"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
