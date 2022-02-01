@@ -16,29 +16,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EYL-oa-Luf">
-                                <rect key="frame" x="164" y="100" width="200" height="100"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EYL-oa-Luf">
+                                <rect key="frame" x="95" y="100" width="224" height="114"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="estonia"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cig-mf-PnS">
-                                <rect key="frame" x="164" y="230" width="200" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iO4-bl-4j2">
+                                <rect key="frame" x="95" y="244" width="224" height="114"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="estonia"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Le-Gs-OZo">
-                                <rect key="frame" x="164" y="360" width="200" height="100"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Le-Gs-OZo">
+                                <rect key="frame" x="95" y="384" width="224" height="114"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" image="estonia"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="EYL-oa-Luf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="12" id="0GY-tc-jW4"/>
+                            <constraint firstItem="iO4-bl-4j2" firstAttribute="top" secondItem="EYL-oa-Luf" secondAttribute="bottom" constant="30" id="6eb-zU-gCz"/>
+                            <constraint firstItem="8Le-Gs-OZo" firstAttribute="centerX" secondItem="iO4-bl-4j2" secondAttribute="centerX" id="VSQ-C6-PYl"/>
+                            <constraint firstItem="iO4-bl-4j2" firstAttribute="centerX" secondItem="EYL-oa-Luf" secondAttribute="centerX" id="Vp6-UK-xi3"/>
                             <constraint firstItem="EYL-oa-Luf" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="kOn-Be-WEc"/>
+                            <constraint firstItem="8Le-Gs-OZo" firstAttribute="top" secondItem="iO4-bl-4j2" secondAttribute="bottom" constant="26" id="zvW-dn-6Sb"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="rDO-EV-oDn"/>
@@ -67,6 +69,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="estonia" width="200" height="100"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
