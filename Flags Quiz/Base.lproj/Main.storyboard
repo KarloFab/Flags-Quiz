@@ -20,16 +20,25 @@
                                 <rect key="frame" x="95" y="100" width="224" height="114"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="estonia"/>
+                                <connections>
+                                    <action selector="flagTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Ngg-tQ-jzg"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iO4-bl-4j2">
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iO4-bl-4j2">
                                 <rect key="frame" x="95" y="244" width="224" height="114"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="estonia"/>
+                                <connections>
+                                    <action selector="flagTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bnb-TR-unR"/>
+                                </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Le-Gs-OZo">
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Le-Gs-OZo">
                                 <rect key="frame" x="95" y="384" width="224" height="114"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="estonia"/>
+                                <connections>
+                                    <action selector="flagTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fjt-zp-vxD"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -46,7 +55,7 @@
                     <navigationItem key="navigationItem" id="rDO-EV-oDn"/>
                     <connections>
                         <outlet property="firstFlagButton" destination="EYL-oa-Luf" id="fSX-sb-KHF"/>
-                        <outlet property="secondFlagButtton" destination="iO4-bl-4j2" id="Qv5-cV-Uwo"/>
+                        <outlet property="secondFlagButton" destination="iO4-bl-4j2" id="3wE-gI-6fG"/>
                         <outlet property="thirdFlagButton" destination="8Le-Gs-OZo" id="evp-O9-PML"/>
                     </connections>
                 </viewController>
